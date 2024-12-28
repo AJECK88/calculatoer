@@ -1,0 +1,127 @@
+/* || RESTING STYLE */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    max-width: 350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    height: 100vh;
+}
+.contianer-calcul{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+   
+    border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+    background-color: black;
+     -ms-grid-column-align: center;
+     -ms-grid-row-align: center;
+     gap: 1rem;
+     padding: 1rem;
+    
+}
+
+.cas{
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    padding: .5rem;
+    cursor: pointer;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: hsl(0, 9%, 18%);
+    gap: 2rem;
+
+}
+.deco{
+    background-color: black;
+  border-radius: 25px;
+
+    padding-top: 1rem;
+}
+input {
+    width: 100%;
+    background-color: hsl(17, 26%, 95%);
+    height:4rem;
+    outline:none;
+    -webkit-caret-color:orangered;
+    overflow: hidden;
+    -moz-caret-color:orangered;
+    caret-color: orangered ;
+    border-radius: 25px;
+    font-size: 2rem;
+    padding-right: 1rem;
+    font-family: "Fx_LEN";
+    text-align: right;
+}
+.input{
+    width:inherit;
+    height: 6rem;
+    text-align: end;
+    color: black;
+  border-radius: 25px;
+    background-color: hsl(17, 26%, 95%);
+}
+.input{
+   width: 100%;
+   font-family: "Fx_LEN";
+   max-width: inherit;
+}
+.sum-container{
+    width: 19rem;
+    display: flex;
+    height: 2rem;
+    justify-content: right;
+    position: absolute;
+    align-items: center;
+  
+   
+}
+.numAc {
+ border-radius: 25px  12px 12px 25px;
+ font-size: inherit;
+ color: white;
+ 
+
+}
+.contianers{
+    padding: 1rem;
+    background-color: hsl(20, 2%, 29%);
+    border-radius: 25px;
+    align-items: center;
+}
+.cas:hover{
+    background-color: hsl(0, 16%, 30%);
+
+}
+.cas:focus{
+    background-color: hsl(0, 16%, 30%);
+
+}
+.operators{
+    background-color: hsl(39, 90%, 39%);
+}
+.operators:hover{
+    background-color: hsl(39, 80%, 53%);
+
+}
+.operators:focus{
+    background-color:hsl(39, 77%, 55%);
+
+}
